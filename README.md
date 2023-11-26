@@ -1,3 +1,14 @@
+# Desktop
+
+<img src="public/assets/desktop.png" alt="no.png">
+
+# Mobil
+
+<img src="public/assets/mobil.png" alt="no.png">
+
+# Demo : https://lustrous-mousse-b5a83e.netlify.app/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
