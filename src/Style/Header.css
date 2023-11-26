@@ -3,26 +3,32 @@
 @layer components{
     .Header{
         @apply flex flex-col items-center justify-center w-full font-OpenSans
+        
     }
     .Header header{
         @apply flex w-full justify-between items-center px-12 py-8
+        md:p-6
     }
     header ul {
-        @apply flex gap-12
+        @apply flex gap-12 md:gap-4 md:text-xs
     }
     .Header article{
         @apply flex w-full justify-around items-center px-24 text-left m-12 
+        md:flex-col-reverse md:p-0 md:text-center md:justify-start md:items-center md:m-0
     }
     .article-title{
-        @apply w-1/2 
+        @apply w-1/2 md:w-full
     }
     .Header article h1{
         @apply text-5xl font-Raleway font-bold my-8 leading-[4rem] 
+        md:text-[28px]  md:w-full md:leading-10 md:font-OpenSans md:mt-12 md:p-3 
     }
     .Header article h5{
-        @apply text-lg font-OpenSans pr-44
+        @apply text-base font-OpenSans pr-44
+        md:px-12
     }
     .buttons{
         @apply w-full my-4 flex justify-start items-center gap-8 
+        md:flex-col md:px-12
     } 
 }

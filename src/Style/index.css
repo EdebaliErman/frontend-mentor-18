@@ -12,5 +12,6 @@
     }
     button{
         @apply w-1/2 bg-brightBlue text-white h-12 rounded-md shadow-xl
+        md:w-full
     }
 }

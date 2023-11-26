@@ -9,7 +9,7 @@ function Header() {
     <div className='Header'>
       <header>
         <div>
-          <img src={url + "logo.svg"} alt='logo' />
+          <img className='md:w-1/2' src={url + "logo.svg"} alt='logo' />
         </div>
         <div>
           <ul>
