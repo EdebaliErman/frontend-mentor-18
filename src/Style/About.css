@@ -1,1 +1,47 @@
 @tailwind components;
+
+@layer components {
+    .About {
+        @apply w-full bg-lightGrayishBlue flex justify-around items-center md:flex-col-reverse
+    }
+
+    .AboutHeader {
+        @apply flex flex-col gap-12 p-16
+    }
+
+    .AboutHeaderTitle {
+        @apply flex flex-col gap-8
+    }
+
+    .AboutHeaderTitle h1 {
+        @apply text-6xl font-bold font-OpenSans
+    }
+
+    .AboutHeaderTitle h3 {
+        @apply text-3xl pr-60 font-Raleway md:p-0 md:text-lg
+    }
+
+    .SeeTitle {
+        @apply flex border-b-2 w-max text-moderateCyan border-moderateCyan gap-6 hover:opacity-60 cursor-pointer
+    }
+
+    .SeeTitle h3 {
+        @apply p-0 font-medium font-OpenSans
+    }
+    .Card {
+        @apply w-[450px] bg-white p-12 rounded-xl border-2 shadow-2xl font-OpenSans font-medium leading-8 
+        flex justify-start items-start flex-col gap-4
+    }
+    .profile{
+        @apply flex justify-start items-center gap-3 
+    }
+    .profile img {
+        @apply w-12 rounded-3xl
+    }
+    .profile h4 {
+        @apply text-xl font-Raleway font-bold 
+    }
+    .profile h5 {
+        @apply text-xs font-Raleway font-medium
+    }
+}

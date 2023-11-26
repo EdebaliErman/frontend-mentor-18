@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <img className='w-full' src={process.env.PUBLIC_URL + "./assets/bgDesktop.svg"} alt='svg' />
       <About />
       <Footer />
     </div>

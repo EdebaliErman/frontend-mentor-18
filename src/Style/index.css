@@ -5,7 +5,7 @@
 
 @layer base{
     html,body{
-        @apply w-full h-full bg-lightGrayishBlue
+        @apply w-full h-full 
     }
     input{
         @apply w-full p-3 border-2 border-gray-600 rounded-md
