@@ -5,6 +5,12 @@
 
 @layer base{
     html,body{
-        @apply w-[1440px] h-full bg-lightGrayishBlue
+        @apply w-full h-full bg-lightGrayishBlue
+    }
+    input{
+        @apply w-full p-3 border-2 border-gray-600 rounded-md
+    }
+    button{
+        @apply w-1/2 bg-brightBlue text-white h-12 rounded-md shadow-xl
     }
 }

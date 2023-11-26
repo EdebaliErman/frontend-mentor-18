@@ -1,1 +1,28 @@
 @tailwind components;
+
+@layer components{
+    .Header{
+        @apply flex flex-col items-center justify-center w-full font-OpenSans
+    }
+    .Header header{
+        @apply flex w-full justify-between items-center px-12 py-8
+    }
+    header ul {
+        @apply flex gap-12
+    }
+    .Header article{
+        @apply flex w-full justify-around items-center px-24 text-left m-12 
+    }
+    .article-title{
+        @apply w-1/2 
+    }
+    .Header article h1{
+        @apply text-5xl font-Raleway font-bold my-8 leading-[4rem] 
+    }
+    .Header article h5{
+        @apply text-lg font-OpenSans pr-44
+    }
+    .buttons{
+        @apply w-full my-4 flex justify-start items-center gap-8 
+    } 
+}
