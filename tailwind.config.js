@@ -14,7 +14,6 @@ module.exports = {
       fontFamily:{
         "OpenSans":['Open Sans', "sans-serif"],
         "Raleway":['Raleway', "sans-serif"],
-
       }
     },
     screens: {

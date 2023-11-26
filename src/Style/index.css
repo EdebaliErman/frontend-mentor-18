@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+
+@layer base{
+    html,body{
+        @apply w-[1440px] h-full bg-lightGrayishBlue
+    }
+}
