@@ -7,7 +7,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <img className='w-full' src={process.env.PUBLIC_URL + "./assets/bgDesktop.svg"} alt='svg' />
+      <img className='w-full  sm:hidden md:hidden ' src={process.env.PUBLIC_URL + "./assets/bgDesktop.svg"} alt='svg' />
+      <img className='w-full  hidden  sm:flex md:flex ' src={process.env.PUBLIC_URL + "./assets/bg-curve-mobile.svg"} alt='svg' />
       <About />
       <Footer />
     </div>

@@ -2,27 +2,33 @@
 
 @layer components {
     .About {
-        @apply w-full bg-lightGrayishBlue flex justify-around items-center md:flex-col-reverse
+        @apply w-full bg-lightGrayishBlue flex justify-around items-center 
+        md:flex-col-reverse  
     }
 
     .AboutHeader {
         @apply flex flex-col gap-12 p-16
+        md:p-0  md:w-full md:justify-center md:items-center
     }
 
     .AboutHeaderTitle {
         @apply flex flex-col gap-8
+        md:gap-5 md:justify-center md:items-center md:px-5 md:text-start
     }
 
     .AboutHeaderTitle h1 {
         @apply text-6xl font-bold font-OpenSans
+        md:text-lg
     }
 
     .AboutHeaderTitle h3 {
-        @apply text-3xl pr-60 font-Raleway md:p-0 md:text-lg
+        @apply text-3xl pr-60 font-Raleway 
+        md:p-0 md:text-xs
     }
 
     .SeeTitle {
         @apply flex border-b-2 w-max text-moderateCyan border-moderateCyan gap-6 hover:opacity-60 cursor-pointer
+        justify-center items-center
     }
 
     .SeeTitle h3 {
@@ -31,6 +37,7 @@
     .Card {
         @apply w-[450px] bg-white p-12 rounded-xl border-2 shadow-2xl font-OpenSans font-medium leading-8 
         flex justify-start items-start flex-col gap-4
+        md:w-80 md:p-8 md:justify-start md:items-start md:mb-12 md:leading-7 md:gap-6  
     }
     .profile{
         @apply flex justify-start items-center gap-3 
